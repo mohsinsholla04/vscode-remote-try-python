@@ -19,7 +19,7 @@ def meal_time(smth): # i cant think of a meaningful name
     elif 18 <= smth < 19:
         return "Dinner time"
     else:
-        return 
+        return None
 
 
 if __name__ == "__main__":
