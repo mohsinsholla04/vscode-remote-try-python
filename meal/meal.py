@@ -1,8 +1,8 @@
 def main():
     time = input("What time is it? ")
     meal = convert(time)
-    dinOrBreakorLun = meal_time(meal)
-    print(dinorBreakorLun)
+    whatTime= meal_time(meal)
+    print(whatTime)
 
 def convert(time):
     hours, minutes = time.split(":")
