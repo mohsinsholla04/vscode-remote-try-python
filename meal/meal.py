@@ -1,8 +1,8 @@
 def main():
     time = input("What time is it? ")
     meal = convert(time)
-    whatTime= meal_time(meal)
-    print(whatTime)
+    meal_time(meal)
+
 
 def convert(time):
     hours, minutes = time.split(":")
@@ -13,13 +13,12 @@ def convert(time):
 
 def meal_time(smth): # i cant think of a meaningful name
     if 7 <= smth < 8:
-        return "Breakfast time"
+        print("Breakfast time")
     elif 12 <= smth < 13:
-        return "Lunch time"
+        print("Lunch time")
     elif 18 <= smth < 19:
-        return "Dinner time"
-    else:
-        return None
+        print("Dinner time")
+
 
 
 if __name__ == "__main__":
