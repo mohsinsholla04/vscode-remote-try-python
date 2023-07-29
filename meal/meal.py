@@ -10,4 +10,4 @@ def convert(time):
     return hours + (minutes / 60)
 
 # if __name__ == "__main__":
-main()
+    main()
